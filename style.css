@@ -1,0 +1,57 @@
+body {
+    color: rgb(49, 46, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color:aqua;
+    text-align: center;
+    border: 5px salmon ;
+}
+img {
+    width:30%;
+    border: radius 15px;
+    box-shadow:5px 5px 35px rgba(104, 131, 214, 0,75);
+    transition: 0,5s;
+}
+img:hover {
+    transform: scale(1.05, 1.05);
+}
+a {
+    text-decoration: none;
+    color: white;
+    background: salmon;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+a:hover {
+    background-color:yellow;
+    color: green;
+}
+.rounded {
+    border-radius: 15px;
+    padding: 10px;
+}
+.blue {
+    background-color: rgb(166, 224, 235);
+}
+.pink {
+    background-color: pink;
+}
+.block {
+    width: 30%;
+    border-radius: 35px;
+}
+.green {
+    background-color: aquamarine;
+    padding: 20px;
+}
+.orange {
+    background-color: orange;
+}
+.violet {
+    background-color: violet;
+}
+.block img {
+    width: 70%;
+}
